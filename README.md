@@ -1,16 +1,25 @@
 # expense_planner
-
 A new Flutter project.
+This app is an entry level cross-platform app developed using flutter.
+In this application the user can manage his/her epenses and a chart is displayed for the expenditure done in the past 7 days.
 
-## Getting Started
+# User Interface
+<b>HoemPage</b>
+<p align="center">
+  <img src="S1.png" width="350" title="Login Activity">
+</p>
 
-This project is a starting point for a Flutter application.
+<b>Date Selector</b>
+<p align="center">
+  <img src="S2.png" width="350" title="Register Activity">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<b>Landscape Mode</b>
+<p align="center">
+  <img src="S3.png" width="350" title="ItemList Activity">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<b>Landscape mode with Show Chart</b>
+<p align="center">
+  <img src="S4.png" width="350" title="ItemDetails Activity">
+</p>
