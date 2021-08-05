@@ -112,13 +112,13 @@ class _MyHomePageState extends State<MyHomePage> {
     final isLandsape = mediaQuery.orientation == Orientation.landscape;
 
     final appBar = AppBar(
-      title: Text(
+      title: const Text(
         'Personal Expenses',
       ),
       actions: [
         IconButton(
           onPressed: () => _startAddNewTransaction(context),
-          icon: Icon(Icons.add),
+          icon: const Icon(Icons.add),
         )
       ],
     );
@@ -137,7 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Show Chart'),
+                const Text('Show Chart'),
                 Switch.adaptive(
                     value: _showChart,
                     onChanged: (val) {
@@ -180,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ? Container()
                 : FloatingActionButton(
                     onPressed: () => _startAddNewTransaction(context),
-                    child: Icon(Icons.add),
+                    child: const Icon(Icons.add),
                   ),
           );
   }
